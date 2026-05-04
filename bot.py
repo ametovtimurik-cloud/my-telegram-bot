@@ -85,7 +85,7 @@ async def cmd_start(message: types.Message):
     if message.chat.type != "private": return
     kb = InlineKeyboardBuilder()
     kb.row(types.InlineKeyboardButton(text="🚀 Добавить в чат", url=f"https://t.me/{(await bot.get_me()).username}?startgroup=true"))
-    await message.answer("🦾 **ImbaMod v2.0 активирован!**\n\nЯ — твой ультимативный инструмент модерации.\nУдаляю мат, считаю карму, выдаю варны и строю топы.\n\nНапиши `/help` в чате, чтобы увидеть мощь.", parse_mode="Markdown", reply_markup=kb.as_markup())
+    await message.answer("🦾 **UltHelper активирован!**\n\nЯ — твой ультимативный инструмент модерации.\nУдаляю мат, считаю карму, выдаю варны и строю топы.\n\nНапиши `/help` в чате, чтобы увидеть мощь.", parse_mode="Markdown", reply_markup=kb.as_markup())
 
 @dp.message(Command("help"))
 async def cmd_help(message: types.Message):
