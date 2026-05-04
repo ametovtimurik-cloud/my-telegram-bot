@@ -11,7 +11,7 @@ from aiogram.types import ChatPermissions
 from aiohttp import web
 
 # ================= НАСТРОЙКИ =================
-TOKEN = "ТВОЙ_ТОКЕН_ЗДЕСЬ"
+TOKEN = "8349041174:AAGuRx-fC4dzQ3zfLXqBOeYPWozQx23msDY"
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
